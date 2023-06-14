@@ -46,7 +46,7 @@
               "mobileRightColumn": 20,
               "animateLoading": true,
               "parentColumnSpace": 12.578125,
-              "leftColumn": 4,
+              "leftColumn": 17,
               "dynamicBindingPathList": [
                 {
                   "key": "buttonColor"
@@ -59,7 +59,7 @@
               "isDisabled": false,
               "key": "2347iq8x8c",
               "isDeprecated": false,
-              "rightColumn": 20,
+              "rightColumn": 33,
               "isDefaultClickDisabled": true,
               "widgetId": "v4ffpvxlqb",
               "minWidth": 120,
@@ -127,6 +127,120 @@
               "mobileLeftColumn": 30,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
+            },
+            {
+              "mobileBottomRow": 39,
+              "widgetName": "CategorySlider1",
+              "displayName": "Category Slider",
+              "iconSVG": "https://release-appcdn.appsmith.com/static/media/icon.5436c8c9fe1bdad6d04e9f0d0db4df63.svg",
+              "labelText": "Size",
+              "searchTags": [
+                "range"
+              ],
+              "topRow": 31,
+              "bottomRow": 39,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "CATEGORY_SLIDER_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 38,
+              "defaultOptionValue": "md",
+              "animateLoading": true,
+              "parentColumnSpace": 12.578125,
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "shouldTruncate": false,
+              "labelPosition": "Top",
+              "options": [
+                {
+                  "label": "xs",
+                  "value": "xs"
+                },
+                {
+                  "label": "sm",
+                  "value": "sm"
+                },
+                {
+                  "label": "md",
+                  "value": "md"
+                },
+                {
+                  "label": "lg",
+                  "value": "lg"
+                },
+                {
+                  "label": "xl",
+                  "value": "xl"
+                }
+              ],
+              "isDisabled": false,
+              "key": "hdwyledquh",
+              "labelTextSize": "0.875rem",
+              "isDeprecated": false,
+              "rightColumn": 38,
+              "widgetId": "u1cuwa1e7o",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "sliderSize": "m",
+              "shouldScroll": false,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 31,
+              "responsiveBehavior": "fill",
+              "mobileLeftColumn": 0,
+              "showMarksLabel": true
+            },
+            {
+              "boxShadow": "none",
+              "mobileBottomRow": 26,
+              "widgetName": "AudioRecorder1",
+              "displayName": "Audio Recorder",
+              "iconSVG": "https://release-appcdn.appsmith.com/static/media/icon.6854d49465b2ead1c3155f6916b01d0d.svg",
+              "searchTags": [
+                "sound recorder",
+                "voice recorder"
+              ],
+              "topRow": 19,
+              "bottomRow": 26,
+              "parentRowSpace": 10,
+              "type": "AUDIO_RECORDER_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 17,
+              "animateLoading": true,
+              "parentColumnSpace": 12.578125,
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "isDisabled": false,
+              "key": "l8ps5ikpiz",
+              "isDeprecated": false,
+              "rightColumn": 17,
+              "widgetId": "ctvg6ndf8p",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 19,
+              "responsiveBehavior": "fill",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "mobileLeftColumn": 1,
+              "iconColor": "white"
             }
           ]
         },
